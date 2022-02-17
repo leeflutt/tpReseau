@@ -1,0 +1,12 @@
+name: nomprocédure
+on:
+  push:
+    branches:
+      - branchedutp
+jobs:
+  idjob:
+    name: nomtâche
+    runs-on: ubuntu-latest
+    steps:
+      - name: nométape
+        run: echo 'workflow lancé'
