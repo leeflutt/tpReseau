@@ -15,5 +15,5 @@ jobs:
         with:
           file: ./Dockerfile
           push: false
-          tags: 'tag pour reconnaître votre image'
-          labels: 'catégorie pour votre image'
+          tags: 'tag'
+          labels: 'image'
