@@ -2,11 +2,11 @@ name: nomprocédure
 on:
   push:
     branches:
-      - branchedutp
+      - testReseau
 jobs:
   idjob:
-    name: nomtâche
+    name: tache1
     runs-on: ubuntu-latest
     steps:
-      - name: nométape
+      - name: etape1
         run: echo 'workflow lancé'
