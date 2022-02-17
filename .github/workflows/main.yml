@@ -2,7 +2,7 @@ name: workflow1
 on:
   push:
     branches:
-      - main
+      - testReseau
 jobs:
   idjob:
     name: tache1
