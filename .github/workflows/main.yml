@@ -1,4 +1,4 @@
-name: nomprocédure
+name: workflow1
 on:
   push:
     branches:
