@@ -10,3 +10,10 @@ jobs:
     steps:
       - name: etape1
         run: echo 'workflow lancé'
+      - name: etape2
+        uses: docker/build-push-action@v2
+        with:
+          file: ./Dockerfile
+          push: false
+          tags: 'tag pour reconnaître votre image'
+          labels: 'catégorie pour votre image'
